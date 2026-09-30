@@ -1,0 +1,6 @@
+{
+  "name": "EarnMate",
+  "description": "Complete Tasks. Earn Rewards. Mobile-first rewards application with surveys, offers, wallet ledger, UPI/bank payouts, and daily bonus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

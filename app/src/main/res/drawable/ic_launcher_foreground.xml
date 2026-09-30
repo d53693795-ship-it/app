@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield / Hexagon Shape in warm gold / white -->
+    <path
+        android:pathData="M54,23 L79,33 L79,59 C79,72 68,82 54,86 C40,82 29,72 29,59 L29,33 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="29"
+                android:startY="23"
+                android:endX="79"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0E7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Coin Emblem -->
+    <path
+        android:pathData="M54,53m-19,0a19,19 0 1,0 38,0a19,19 0 1,0 -38,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="34"
+                android:endX="73"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FCD34D" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Rupee / Checkmark Emblem inside coin -->
+    <path
+        android:pathData="M46,53 L51,58 L63,46"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+    <!-- Top Sparkle Star -->
+    <path
+        android:pathData="M75,22 L77,27 L82,29 L77,31 L75,36 L73,31 L68,29 L73,27 Z"
+        android:fillColor="#FBBF24" />
+    <!-- Bottom Left Sparkle -->
+    <path
+        android:pathData="M27,67 L28,70 L31,71 L28,72 L27,75 L26,72 L23,71 L26,70 Z"
+        android:fillColor="#FDE68A" />
+</vector>
